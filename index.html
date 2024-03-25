@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RegEx SignUp Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>RegEx Signup Form</h1>
+    <form method="post">
+      <input type="text" name="username" placeholder="username" />
+      <span>Username must be more than 3 letters</span>
+
+      <input type="text" name="email" placeholder="email" />
+      <span
+        >Email must be a valid address, e.g. janjaprogrammers@gmail.com</span
+      >
+
+      <input type="password" name="password" placeholder="password" />
+      <span
+        >Password should be strong. Use 8 or more characters(Alphanumeric and/or
+        @&_)</span
+      >
+
+      <input type="text" name="telephone" placeholder="telephone" />
+      <span>Kenyan phone number must start with +254 and end in 9 digits</span>
+
+      <button type="submit">Submit Form</button>
+    </form>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
